@@ -2,18 +2,19 @@ body {
 	background-color: #298eea;
 	font-family: "Roboto", helvetica, sans-serif;
 	margin: 0px;
-	padding: 60px 0 0;
+	padding-top: 60px;
+	padding-bottom; 0;
 	font-size: 18px;
 }
 
 body * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 fieldset {
-	border: 0;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 .logo {
@@ -22,72 +23,59 @@ fieldset {
 	height: 35px;
 	margin-top: 0;
 	margin-right: auto;
-	margin-bottom: 30px;
 	margin-left: auto;
-	/*margin: 0 auto 30px;*/
-/*	position: absolute; this and next 4 lines is needed to center logo?
-	margin: auto;
-	left: 500px;
-	right: 500px;
-	top: 60px;	*/
+	margin-bottom: 30px;
 }
 
 .signup-form {
 	width: 400px;
 	padding: 40px;
-	border-radius: 3px;
-	background-color: white;
 	margin: 0 auto;
-	/*width: 320px;
-	height: 388px;
-	margin-top: 125px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 40px;
-	background-color: white;*/
+	background-color: white;
+	border-radius: 3px;
 }
 
 .signup-form legend {
-	width: 100%;
-	line-height: 38px;     /*line-height?*/
 	font-size: 35px;
+	line-height: 38px;
+	text-align: center;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;  
 	font-weight: 300px;
 	color: #565656;
-	text-align: center;
-	/*letter-spacing: 0;*/
-	margin: 0 auto 40px;
 }
 
 .signup-form input, button {
 	display: block;
 	width: 100%;
 	height: 55px;
-	font-size: 18px;
+	font-size: 18px;	
 	text-align: left;
 	padding: 15px;
 	border: 2px solid #e7e7e7;
 	border-radius: 3px;
-	background: #fcfcfc;
 	margin: 10px auto 20px;
 	transition: opacity 0.4s;
+	background: #fcfcfc;
 }
 
-.signup-form button {
+button {
 	font-size: 22px;
 	font-weight: 200;
-	color: white;
 	text-align: center;
+	color: white;
 	background-color: #15CD72;
 	margin-bottom: 0;
 }
 
-footer, a {
-	color: white;
+footer, footer a {
 	text-align: center;
+	color: white;
 	font-weight: 600;
 }
 
 fieldset button:hover {
 	background-color: green;
 }
-
